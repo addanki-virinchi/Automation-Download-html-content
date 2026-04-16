@@ -1,0 +1,19 @@
+Create a new file called `scraper_servicetitan.py` following the same structure and approach used in the existing `scraper_pipedrive.py` file. This scraper should extract navigation links from servicetitan's website. 
+
+Requirements:
+1. **Base URL**: Use "https://www.servicetitan.com" as the BASE_URL 
+2. **Input file**: Parse the existing `servicetitan.html` file 
+3. **Navigation extraction**: Extract links from BOTH header navigation AND footer navigation sections
+4. **HTML parser class**: Create a `TopNavParser` class similar to the existing scrapers that can identify and extract links from:
+   - Header navigation (navbar elements, dropdown menus, main navigation links)
+   - Footer navigation (all footer link sections including Industries, Product, Resources, Company)
+5. **Core functions**: Implement the same helper functions as other scrapers:
+   - `is_jobnimbus_domain()` - filter for JobNimbus domain links only
+   - `normalize_link()` - convert relative URLs to absolute URLs
+   - `should_skip_link()` - filter out logos, JavaScript links, mailto links, and other non-navigation content
+   - `extract_top_nav_links()` - main extraction function
+6. **Output**: Save results to `navigation_links_servicetitan.csv` with columns "link_text" and "full_url" 
+7. **Deduplication**: Ensure no duplicate URLs are included in the final CSV
+8. **Code organization**: Follow the same patterns, error handling, and structure as the existing scraper files
+
+The scraper should capture all meaningful navigation links from both the header and footer sections while filtering out non-navigation elements like social media icons, app store badges, and decorative links.

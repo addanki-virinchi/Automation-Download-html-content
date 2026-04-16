@@ -10,9 +10,9 @@ import undetected_chromedriver as uc
 from selenium.common.exceptions import TimeoutException, WebDriverException
 
 
-OUTPUT_DIR = "downloaded_html_articles"
-CSV_PATH = "article_csv.csv"
-LOG_PATH = "download_articles.log"
+OUTPUT_DIR = "downloaded_html_servicetitan"
+CSV_PATH = "navigation_links_servicetitan.csv"
+LOG_PATH = "download_servicetitan.log"
 BASE_DELAY_SECONDS = 2
 JITTER_SECONDS = 1.5
 PAGE_LOAD_TIMEOUT = 30

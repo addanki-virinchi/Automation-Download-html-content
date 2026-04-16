@@ -1,0 +1,290 @@
+<html lang="en" style="overscroll-behavior-y: none;"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>JobNimbus</title><link rel="icon" href="/images/favicon.png"><script type="text/javascript" async="" data-apikey="l_cPGPBOQPywSpUpz14TIQ" data-env="us01" src="https://us01ccistatic.zoom.us/us01cci/web-sdk/zcc-sdk.js"></script><script async="" src="https://cdn.pendo.io/agent/static/53aa6f79-8c5b-4e93-743f-cf137a6f6070/pendo.js"></script><script src="https://cdn.jsdelivr.net/npm/regenerator-runtime@0.13.7/runtime.min.js"></script><meta name="importmap-type" content="systemjs-importmap"><script type="systemjs-importmap" src="/import-map.json?t=1765824224430"></script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap"><script src="https://cdn.jsdelivr.net/npm/zone.js@0.10.3/dist/zone.js"></script><script src="https://cdn.jsdelivr.net/npm/import-map-overrides@2.2.0/dist/import-map-overrides.js"></script><style type="text/css">.imo-unstyled {
+  border: none;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  cursor: pointer;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+}
+
+.imo-unstyled::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.imo-trigger {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: navajowhite;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-family: sans-serif;
+  z-index: 10500;
+}
+
+.imo-popup {
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  z-index: 10000;
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  padding: 24px;
+  overflow-y: auto;
+}
+
+.imo-popup a:visited,
+imo-popup a {
+  color: white;
+}
+
+.imo-popup .imo-module-dialog {
+  left: calc(50% - 200px);
+}
+
+.imo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.imo-list {
+  margin-left: 16px;
+}
+
+.imo-list > *:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.imo-list-container *,
+.imo-modal-container * {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.imo-module-dialog {
+  position: fixed;
+  z-index: 30000000;
+  top: 30%;
+  max-width: 600px;
+  margin: 0 auto;
+  border: 4px solid navajowhite;
+  background-color: white;
+  padding: 1em;
+  left: 50%;
+  right: auto;
+  transform: translateX(-50%);
+}
+
+.imo-module-dialog input {
+  width: 100%;
+  font-size: 16px;
+  box-sizing: border-box;
+  padding-right: 20px;
+}
+
+.imo-module-dialog table {
+  margin-bottom: 16px;
+}
+
+.imo-module-dialog table td:first-child {
+  text-align: right;
+  padding-right: 16px;
+  word-break: keep-all;
+}
+
+.imo-module-dialog table td {
+  word-break: break-all;
+}
+
+.imo-module-dialog.imo-overridden {
+  border: 4px solid salmon;
+}
+
+.imo-table-header-actions {
+  display: flex;
+  align-items: center;
+}
+
+.imo-overrides-table {
+  border-collapse: collapse;
+  margin-top: 32px;
+}
+
+.imo-overrides-table tr td:first-child {
+  display: flex;
+  align-items: center;
+  padding-right: 32px;
+  position: relative;
+}
+
+.imo-needs-refresh {
+  position: absolute;
+  right: 8px;
+  font-size: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.imo-needs-refresh::before {
+  content: "\27F2";
+}
+
+.imo-status {
+  height: 16px;
+  width: 16px;
+  border-radius: 8px;
+  border: 1px solid white;
+  margin-right: 8px;
+}
+
+.imo-disabled-override {
+  background-color: lightblue;
+}
+
+.imo-next-override {
+  background-color: darkred;
+}
+
+.imo-current-override {
+  background-color: salmon;
+}
+
+.imo-default-module {
+  background-color: lightgoldenrodyellow;
+}
+
+.imo-external-override {
+  background-color: orange;
+}
+
+.imo-next-default {
+  background-color: darkgoldenrod;
+}
+
+.imo-dev-lib-override {
+  background-color: lightpink;
+}
+
+.imo-overrides-table tbody tr:hover {
+  cursor: pointer;
+  background-color: #404040;
+}
+
+.imo-overrides-table td,
+.imo-overrides-table th {
+  line-height: 18px;
+  padding: 16px;
+  border: 1px solid white;
+}
+
+.imo-add-new {
+  margin-left: 16px;
+}
+
+.imo-clear-input {
+  position: absolute;
+  top: 0;
+  right: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.imo-modal-container {
+  font-family: sans-serif;
+}
+
+.imo-modal {
+  background-color: rgba(61, 70, 77, 0.6);
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 20000000;
+}
+
+.imo-list-search,
+.imo-list-container button,
+.imo-modal-container button {
+  font-size: 14px;
+  height: 27px;
+  line-height: 27px;
+}
+
+.imo-list-search {
+  line-height: 22px;
+  border: none;
+  padding: 5px;
+}
+</style><script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/system.min.js"></script><script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/extras/amd.min.js"></script><script>(function (apiKey) {
+        (function (p, e, n, d, o) {
+            var v, w, x, y, z;
+            o = p[d] = p[d] || {};
+            o._q = [];
+            v = ['initialize', 'identify', 'updateOptions', 'pageLoad'];
+            for (w = 0, x = v.length; w < x; ++w)
+                (function (m) {
+                    o[m] =
+                        o[m] ||
+                        function () {
+                            o._q[m === v[0] ? 'unshift' : 'push']([m].concat([].slice.call(arguments,
+                                0)));
+                        };
+                })(v[w]);
+            y = e.createElement(n);
+            y.async = !0;
+            y.src = 'https://cdn.pendo.io/agent/static/' + apiKey + '/pendo.js';
+            z = e.getElementsByTagName(n)[0];
+            z.parentNode.insertBefore(y, z);
+        })(window, document, 'script', 'pendo');
+    })('53aa6f79-8c5b-4e93-743f-cf137a6f6070');</script><script>(function (key, env) {
+        (function (z, o, om) {
+            var s = o.createElement(om);
+            s.type = 'text/javascript';
+            s.async = true;
+            s.setAttribute('data-apikey', key);
+            s.setAttribute('data-env', env);
+            s.src = 'https://' + env + 'ccistatic.zoom.us/' + env + 'cci/web-sdk/zcc-sdk.js';
+            var x = o.getElementsByTagName(om)[0];
+            x.parentNode.insertBefore(s, x);
+        })(window, document, 'script');
+    })('l_cPGPBOQPywSpUpz14TIQ', 'us01');</script><script>(function (m, a, z, e) {
+        var s, t;
+        try {
+            t = m.sessionStorage.getItem('maze-us');
+        } catch (err) {}
+
+        if (!t) {
+            t = new Date().getTime();
+            try {
+                m.sessionStorage.setItem('maze-us', t);
+            } catch (err) {}
+        }
+
+        s = a.createElement('script');
+        s.src = z + '?apiKey=' + e;
+        s.async = true;
+        a.getElementsByTagName('head')[0].appendChild(s);
+        m.mazeUniversalSnippetApiKey = e;
+    })(window, document, 'https://snippet.maze.co/maze-universal-loader.js', 'c1d98419-fbd8-44e3-bfa5-e1f06eceefcb');</script><script src="https://snippet.maze.co/maze-universal-loader.js?apiKey=c1d98419-fbd8-44e3-bfa5-e1f06eceefcb" async=""></script><script src="https://snippet.maze.co/static/7eaff73ac91e976f3b61ac2baffdbae80d628728/contextualScaffold.js" async=""></script></head><body style="margin: 0px; display: flex; flex-direction: column; min-height:100vh; height: auto; overscroll-behavior-y: none;"><script>System.import('@jobnimbus/root-config');</script><div id="parcel-container"></div><import-map-overrides-full show-when-local-storage="devtools" dev-libs=""></import-map-overrides-full><iframe src="https://us01ccistatic.zoom.us/us01cci/web-sdk/8702/cross-storage.html?lang=en" sandbox="allow-scripts allow-same-origin" style="display: none;"></iframe></body></html>

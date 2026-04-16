@@ -1,0 +1,119 @@
+2025-12-31 17:17:49,726 [INFO] patching driver executable C:\Users\91630\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-12-31 17:17:53,491 [INFO] Downloading (1/42): https://www.jobnimbus.com/peak-performance
+2025-12-31 17:18:00,497 [INFO] Saved: downloaded_html_jobnimbus\get-the-report.html
+2025-12-31 17:18:03,964 [INFO] Downloading (2/42): https://app.jobnimbus.com
+2025-12-31 17:18:10,319 [INFO] Saved: downloaded_html_jobnimbus\sign-in.html
+2025-12-31 17:18:12,723 [INFO] Downloading (3/42): https://www.jobnimbus.com/product/payments
+2025-12-31 17:18:17,656 [INFO] Saved: downloaded_html_jobnimbus\paymentscollect-fast-secure-payments-with-ease.html
+2025-12-31 17:18:20,598 [INFO] Downloading (4/42): https://www.jobnimbus.com/product/measurements
+2025-12-31 17:18:21,662 [INFO] Saved: downloaded_html_jobnimbus\measurementsorder-precise-roof-measurements-for-any-job.html
+2025-12-31 17:18:24,051 [INFO] Downloading (5/42): https://www.jobnimbus.com/product/mobile
+2025-12-31 17:18:24,980 [INFO] Saved: downloaded_html_jobnimbus\mobilemanage-jobs-photos-teams-and-more-from-anywhere.html
+2025-12-31 17:18:27,756 [INFO] Downloading (6/42): https://www.jobnimbus.com/product/insights
+2025-12-31 17:18:28,872 [INFO] Saved: downloaded_html_jobnimbus\insightsvisualize-trends-and-stats-with-custom-reports.html
+2025-12-31 17:18:31,985 [INFO] Downloading (7/42): https://www.jobnimbus.com/product/financing
+2025-12-31 17:18:33,131 [INFO] Saved: downloaded_html_jobnimbus\financingoffer-simple-financing-options-to-close-more-jobs.html
+2025-12-31 17:18:36,631 [INFO] Downloading (8/42): https://www.jobnimbus.com/product/invoicing
+2025-12-31 17:18:58,518 [INFO] Saved: downloaded_html_jobnimbus\invoicingquickly-create-send-and-track-accurate-invoices.html
+2025-12-31 17:19:01,134 [INFO] Downloading (9/42): https://www.jobnimbus.com/product/profit-tracker
+2025-12-31 17:19:02,579 [INFO] Saved: downloaded_html_jobnimbus\profit-trackersee-real-time-job-profits-and-cost-breakdowns.html
+2025-12-31 17:19:05,270 [INFO] Downloading (10/42): https://www.jobnimbus.com/product/assistai
+2025-12-31 17:19:07,019 [INFO] Saved: downloaded_html_jobnimbus\assistainever-miss-a-phone-call-again-ever.html
+2025-12-31 17:19:10,482 [INFO] Downloading (11/42): https://www.jobnimbus.com/integrations
+2025-12-31 17:19:11,471 [INFO] Saved: downloaded_html_jobnimbus\integrationsconnect-jobnimbus-with-your-favorite-tools.html
+2025-12-31 17:19:13,689 [INFO] Downloading (12/42): https://www.jobnimbus.com/estimates
+2025-12-31 17:19:17,261 [INFO] Saved: downloaded_html_jobnimbus\estimatescreate-fast-accurate-estimates-every-time.html
+2025-12-31 17:19:19,910 [INFO] Downloading (13/42): https://www.jobnimbus.com/product
+2025-12-31 17:19:20,868 [INFO] Saved: downloaded_html_jobnimbus\see-all-features.html
+2025-12-31 17:19:24,365 [INFO] Downloading (14/42): https://www.jobnimbus.com/sales
+2025-12-31 17:19:25,751 [INFO] Saved: downloaded_html_jobnimbus\salesempower-your-sales-team-with-one-click-estimates-professional-proposals-and-more.html
+2025-12-31 17:19:28,462 [INFO] Downloading (15/42): https://www.jobnimbus.com/communication
+2025-12-31 17:19:30,352 [INFO] Saved: downloaded_html_jobnimbus\communicationsget-5-stars-for-communication-with-integrated-text-messaging-email-and-caller-id.html
+2025-12-31 17:19:33,217 [INFO] Downloading (16/42): https://www.jobnimbus.com/solutions/production
+2025-12-31 17:19:34,166 [INFO] Saved: downloaded_html_jobnimbus\productionorder-materials-direct-from-your-suppliers-and-manage-production-from-start-to-finish.html
+2025-12-31 17:19:36,973 [INFO] Downloading (17/42): https://www.jobnimbus.com/billing
+2025-12-31 17:19:38,135 [INFO] Saved: downloaded_html_jobnimbus\billingcollect-payments-via-text-message-and-apply-for-financing-all-while-syncing-with-quickbooks.html
+2025-12-31 17:19:40,774 [INFO] Downloading (18/42): https://www.jobnimbus.com/pro-services
+2025-12-31 17:19:43,126 [INFO] Saved: downloaded_html_jobnimbus\pro-servicesget-focused-help-to-set-up-your-account-identify-key-areas-for-growth-and-train-your-team.html
+2025-12-31 17:19:46,197 [INFO] Downloading (19/42): https://www.jobnimbus.com/industries/roofing-software
+2025-12-31 17:19:48,688 [INFO] Saved: downloaded_html_jobnimbus\roofingthe-1-all-in-one-platform-for-roofing-contractors-4-8-stars-with-over-4000-reviews-and-counting.html
+2025-12-31 17:19:51,995 [INFO] Downloading (20/42): https://www.jobnimbus.com/industries/siding-software
+2025-12-31 17:19:54,503 [INFO] Saved: downloaded_html_jobnimbus\sidinga-complete-business-in-a-box-for-siding-contractors-we-have-everything-your-team-needs.html
+2025-12-31 17:19:57,667 [INFO] Downloading (21/42): https://www.jobnimbus.com/industries/gutter-software
+2025-12-31 17:19:59,659 [INFO] Saved: downloaded_html_jobnimbus\guttersthere-s-no-better-way-to-run-your-gutter-business-than-an-all-in-one-platform-built-for-your-team.html
+2025-12-31 17:20:03,167 [INFO] Downloading (22/42): https://www.jobnimbus.com/industries/fence-software
+2025-12-31 17:20:05,377 [INFO] Saved: downloaded_html_jobnimbus\fencingfrom-start-to-finish-jobnimbus-gives-fence-contractors-everything-they-need-to-grow-their-business.html
+2025-12-31 17:20:07,423 [INFO] Downloading (23/42): https://www.jobnimbus.com/blog
+2025-12-31 17:20:08,597 [INFO] Saved: downloaded_html_jobnimbus\blogyour-guide-to-the-contractor-s-galaxy-find-helpful-tips-best-practices-and-more.html
+2025-12-31 17:20:11,734 [INFO] Downloading (24/42): https://www.jobnimbus.com/events
+2025-12-31 17:20:13,703 [INFO] Saved: downloaded_html_jobnimbus\eventswe-re-going-places-and-talking-about-cool-things-come-with-us.html
+2025-12-31 17:20:17,135 [INFO] Downloading (25/42): https://www.jobnimbus.com/tools
+2025-12-31 17:20:17,985 [INFO] Saved: downloaded_html_jobnimbus\free-resourcesestimate-templates-roofing-contracts-and-other-free-tools-to-help-contractors-of-all-levels.html
+2025-12-31 17:20:20,226 [INFO] Downloading (26/42): https://www.jobnimbus.com/support
+2025-12-31 17:20:21,593 [INFO] Saved: downloaded_html_jobnimbus\product-supportour-support-team-is-the-best-in-the-business-and-will-help-you-with-all-your-jobnimbus-questions.html
+2025-12-31 17:20:24,140 [INFO] Downloading (27/42): https://www.jobnimbus.com/pricing
+2025-12-31 17:20:26,739 [INFO] Saved: downloaded_html_jobnimbus\pricing.html
+2025-12-31 17:20:29,893 [INFO] Downloading (28/42): https://www.jobnimbus.com/trial-signup
+2025-12-31 17:20:31,209 [INFO] Saved: downloaded_html_jobnimbus\start-a-trial.html
+2025-12-31 17:20:34,700 [INFO] Downloading (29/42): https://app.jobnimbus.com/login.aspx
+2025-12-31 17:20:36,295 [INFO] Saved: downloaded_html_jobnimbus\or-continue-to-web-app.html
+2025-12-31 17:20:39,230 [INFO] Downloading (30/42): https://www.jobnimbus.com/integrations/abc
+2025-12-31 17:20:40,183 [INFO] Saved: downloaded_html_jobnimbus\abc-supply-integration.html
+2025-12-31 17:20:42,852 [INFO] Downloading (31/42): https://product.jobnimbus.com/
+2025-12-31 17:20:43,124 [ERROR] WebDriver error for https://product.jobnimbus.com/: Message: unknown error: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH
+  (Session info: chrome=143.0.7499.170)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x3912d3
+	0x391314
+	0x17e6dd
+	0x17bc86
+	0x16ef92
+	0x17094a
+	0x16f435
+	0x16ed71
+	0x16ea85
+	0x16c94f
+	0x16d31a
+	0x182451
+	0x20e704
+	0x1eb4ec
+	0x20db13
+	0x1eb2e6
+	0x1bd321
+	0x1be1d4
+	0x5e5314
+	0x5e08cb
+	0x5fd1aa
+	0x3ab1d8
+	0x3b31dd
+	0x3995d8
+	0x399799
+	0x383b28
+	0x74c15d49
+	0x7718d5db
+	0x7718d561
+	0
+
+2025-12-31 17:20:46,440 [INFO] Downloading (32/42): https://www.jobnimbus.com/demo
+2025-12-31 17:20:47,738 [INFO] Saved: downloaded_html_jobnimbus\demo.html
+2025-12-31 17:20:50,650 [INFO] Downloading (33/42): https://www.jobnimbus.com/events/solution-summit
+2025-12-31 17:20:51,630 [INFO] Saved: downloaded_html_jobnimbus\solution-summit.html
+2025-12-31 17:20:54,235 [INFO] Downloading (34/42): https://status.jobnimbus.com/?_gl=1*8iz7nc*_gcl_au*MTk3MDg4NTczNC4xNzM4MDE5OTIx
+2025-12-31 17:20:57,747 [INFO] Saved: downloaded_html_jobnimbus\status.html
+2025-12-31 17:21:00,851 [INFO] Downloading (35/42): https://www.jobnimbus.com/about
+2025-12-31 17:21:16,700 [INFO] Saved: downloaded_html_jobnimbus\about-us.html
+2025-12-31 17:21:19,572 [INFO] Downloading (36/42): https://www.jobnimbus.com/customer-stories
+2025-12-31 17:21:21,985 [INFO] Saved: downloaded_html_jobnimbus\customer-stories.html
+2025-12-31 17:21:24,036 [INFO] Downloading (37/42): https://www.jobnimbus.com/category/press
+2025-12-31 17:21:26,370 [INFO] Saved: downloaded_html_jobnimbus\press.html
+2025-12-31 17:21:29,864 [INFO] Downloading (38/42): https://www.jobnimbus.com/careers
+2025-12-31 17:21:34,914 [INFO] Saved: downloaded_html_jobnimbus\careers.html
+2025-12-31 17:21:37,157 [INFO] Downloading (39/42): https://www.jobnimbus.com/contact
+2025-12-31 17:21:39,936 [INFO] Saved: downloaded_html_jobnimbus\contact.html
+2025-12-31 17:21:43,127 [INFO] Downloading (40/42): https://www.jobnimbus.com/referrals
+2025-12-31 17:21:45,527 [INFO] Saved: downloaded_html_jobnimbus\referral-program.html
+2025-12-31 17:21:48,430 [INFO] Downloading (41/42): https://www.jobnimbus.com/privacy-policy
+2025-12-31 17:21:49,635 [INFO] Saved: downloaded_html_jobnimbus\privacy-policy.html
+2025-12-31 17:21:52,925 [INFO] Downloading (42/42): https://www.jobnimbus.com/terms
+2025-12-31 17:21:54,572 [INFO] Saved: downloaded_html_jobnimbus\terms-of-service.html
